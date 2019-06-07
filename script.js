@@ -5,12 +5,6 @@ var form = document.getElementById("search-form");
 
 var commands = [
 	{
-		command: "",
-		label: "Google",
-		icon: "fa fa-google",
-		url: "https://www.google.com/search?q="
-	},
-	{
 		command: "/a",
 		label: "Amazon",
 		icon: "fa fa-amazon",
@@ -53,28 +47,16 @@ var commands = [
 		url: "https://www.youtube.com/results?search_query="
 	},
 	{
-		command: "/g",
-		label: "ZGithub",
-		icon: "fa fa-github",
-		url: "https://github.bus.zalan.do/search?q="
-	},
-	{
 		command: "/mk",
 		label: "Reddit",
 		icon: "fa fa-reddit-alien",
 		url: "https://www.reddit.com/r/MechanicalKeyboards/search?restrict_sr=1&q="
 	},
 	{
-		command: "/mm",
-		label: "Reddit",
-		icon: "fa fa-reddit-alien",
-		url: "https://www.reddit.com/r/mechmarket/search?restrict_sr=1&q="
-	},
-	{
-		command: "/s",
-		label: "Reddit",
-		icon: "fa fa-reddit-alien",
-		url: "https://www.reddit.com/r/sneakers/search?restrict_sr=1&q="
+		command: "",
+		label: "Google",
+		icon: "fa fa-google",
+		url: "https://www.google.com/search?q="
 	}
 ];
 
